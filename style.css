@@ -6,24 +6,28 @@ body {
 header {
     background-color: #1f2937;
     color:#f9FAF8;
+    margin: 0px 100px;
     
 }
 .navigation {
     display:flex;
     justify-content:space-between;
     padding:5px;
+    align-items:center;
   
 }
 
 .logo {
     display:flex;
     justify-self: left;
+    margin: 0 100px;
+    font-size:24px;
 }
 
 .nav {
     display:flex;
     list-style: none;
-    float:right;
+    
 }
 
 ul {
@@ -35,4 +39,6 @@ ul {
 
 a {
     text-decoration:none;
+    font-size:18px;
+    color:#E5E7EB;
 }
