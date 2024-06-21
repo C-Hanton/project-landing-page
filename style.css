@@ -97,8 +97,25 @@ button {
 
 .content-main {
     color:#1f2937;
+    display:flex;
+    flex-direction: column;
+}
+
+div {
+    display:flex;
 }
 
 div.examples-main {
     display:flex;
+    flex-direction:row;
 }
+
+.photo > img {
+    height:100px;
+    width:200px;
+}
+
+main {
+    display:flex;
+}
+
