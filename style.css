@@ -46,7 +46,7 @@ a {
 .header-content {
     display:flex;
     margin:0 100px;
-    flex-grow: 1;
+    
 }
 
 h1 {
@@ -56,6 +56,21 @@ h1 {
 }
 
 img{
-    width: 300px;
-    height:190px;
+    width: 100%;
+    height:auto;
+}
+
+.content-1 {
+    flex-grow: 1;
+    flex-shrink:1;
+    flex-basis:0;
+    padding:10px;
+}
+
+.content-2 {
+    flex-grow: 1;
+    flex-shrink:1;
+    flex-basis:0;
+    align-self: center;
+    padding:10px;
 }
