@@ -67,6 +67,8 @@ img{
     flex-shrink:1;
     flex-basis:0;
     padding:10px;
+    display:flex;
+    flex-direction:column;
 }
 
 .content-2 {
@@ -75,4 +77,19 @@ img{
     flex-basis:0;
     align-self: center;
     padding:10px;
+}
+
+.text {
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+
+button {
+    width: 30%;
+    background-color:yellow;
+    border-radius: 100px;
+    align-self:center;
+    padding:5px;
+
 }
