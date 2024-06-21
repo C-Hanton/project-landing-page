@@ -98,3 +98,7 @@ button {
 .content-main {
     color:#1f2937;
 }
+
+div.examples-main {
+    display:flex;
+}
