@@ -42,3 +42,13 @@ a {
     font-size:18px;
     color:#E5E7EB;
 }
+
+.header-content {
+    display:flex;
+}
+
+h1 {
+    font-size:48px;
+    color:#f9faf8;
+    font-weight: bolder;
+}
