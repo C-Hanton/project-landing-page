@@ -91,10 +91,12 @@ img{
 
 button {
     width: 30%;
-    background-color:yellow;
+    background-color:#3882f6;
     border-radius: 100px;
     align-self:center;
     padding:5px;
+    color:#f9FAF8;
+    font-weight:bold
 
 }
 
@@ -219,4 +221,16 @@ div.cta2 {
 .sign-up a {
     font-size: 20px;
     text-wrap:nowrap;
+}
+
+footer {
+    background-color: #1f2937;
+    color:#f9FAF8;
+    padding: 15px;
+    display:flex;
+    justify-content:center;
+}
+
+.footer {
+    margin:0 auto;
 }
