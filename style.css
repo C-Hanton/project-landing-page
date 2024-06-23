@@ -51,8 +51,7 @@ a {
 .header-content {
     display:flex;
     margin:100px;
-    
-    
+    background-color: #1f2937
 }
 
 h1 {
@@ -121,10 +120,21 @@ div.examples-main {
     display:flex;
     flex-shrink:1;
     flex-direction:column;
+    padding: 10px;
+    margin: 10px;
+    max-height:100px;
+    max-width:150px;
+  
 }
 
 .photo img {
     max-height:100px;
     max-width: 150px;
-    
+    border-radius:50px;
+    gap: 20px;
+}
+
+.photo p {
+    text-wrap:wrap;
+    text-align:center;
 }
