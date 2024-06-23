@@ -51,7 +51,8 @@ a {
 .header-content {
     display:flex;
     margin:100px;
-    background-color: #1f2937
+    background-color: #1f2937;
+    height: 25em;
 }
 
 h1 {
@@ -108,6 +109,7 @@ h2 {
     display:flex;
     flex-direction:column;
     align-items:center;
+    height: 25em;
 }
 
 div.examples-main {
@@ -137,4 +139,27 @@ div.examples-main {
 .photo p {
     text-wrap:wrap;
     text-align:center;
+}
+
+.quote-main {
+    height: 25em;
+    background-color: #e5e7eb;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.quote {
+    text-wrap:wrap;
+    font-size:36px;
+    font-style:italic;
+    color:#1f2937;
+    text-align:center;
+}
+
+.quoted {
+    color:#1f2937;
+    font-weight:bolder;
+    text-align:right;
 }
