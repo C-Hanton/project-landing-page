@@ -163,3 +163,59 @@ div.examples-main {
     font-weight:bolder;
     text-align:right;
 }
+
+.call-to-action-main {
+    max-height: 20em;
+    display:flex;
+    height: 20em;
+    justify-content:center;
+    align-items:center;
+}
+
+.call-to-action-box {
+    display:flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 50px;
+    flex-direction: row;
+    
+}
+
+.cta1 {
+    color: #f9faf8;
+    display:flex;
+    flex-direction: column;
+    margin: 10px 100px;
+}
+
+h3 {
+    display:flex;
+    
+    text-align:left;
+}
+
+.cta-para {
+    display:flex;
+    
+}
+
+
+div.cta2 {
+    display:flex;
+    width:15em;
+    justify-content:center;
+    align-items:center;
+    
+}
+.sign-up {
+    margin:0 auto;
+    border-radius: 12px;
+    text-align:center;
+    background-color: #3882f6;
+    width: auto;
+}
+
+.sign-up a {
+    font-size: 20px;
+    text-wrap:nowrap;
+}
